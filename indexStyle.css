@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: "Kings", cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-family: "Love Light", cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    margin-bottom: 10px;
+}
+
+.navigation a {
+    color: red;
+    font-family: "Send Flowers", cursive;
+    display: inline-block;
+    transition: color 0s ease-in;
+}
+
+.navigation a:hover {
+    color: blueviolet;
+}
+
+#logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+main {
+    padding-top: 10%;
+}
