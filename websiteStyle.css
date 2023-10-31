@@ -59,6 +59,7 @@ main {
 .image-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .image-container img {
