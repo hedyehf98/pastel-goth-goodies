@@ -1,16 +1,17 @@
 body {
     background-color: black;
+    text-align: center;
 }
 
 h1 {
-    color: white;
+    color: lawngreen;
     font-family: "Kings", cursive;
     text-align: center;
     font-size: 40px;
 }
 
 h2 {
-    color: white;
+    color: rgb(246, 0, 238);
     text-align: center;
     font-family: "Sevillana", cursive;
     font-size: 30px;
@@ -18,7 +19,7 @@ h2 {
 
 p {
     color: white;
-    font-family: "Love Light", cursive;
+    font-family: "Agbalumo", cursive;
     text-align: center;
     font-size: 25px;
 }
@@ -45,7 +46,7 @@ p {
 
 a {
     color: white;
-    font-family: "Love Light", cursive;
+    font-family: "Agbalumo", cursive;
     font-size: 25px;
     text-align: center;
     transition: color 1s ease-out;
@@ -78,6 +79,19 @@ main {
 figcaption {
     color: white;
     text-align: center;
-    font-family: "Love Light", cursive;
+    font-family: "Agbalumo", cursive;
     font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+    .image-container {
+        justify-content: center;
+    }
+    .img-container img {
+        max-width: 150px;
+        height: auto;
+    }
 }
